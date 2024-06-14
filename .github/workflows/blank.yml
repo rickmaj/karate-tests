@@ -27,6 +27,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           sparse-checkout: |
-            apigee-tests/*
+            apigee-tests
       - name: Check cloned files
         run: ls -la
