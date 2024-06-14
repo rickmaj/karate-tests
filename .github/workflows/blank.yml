@@ -31,3 +31,7 @@ jobs:
           sparse-checkout-cone-mode: false
       - name: Check cloned files
         run: ls -la
+      - name: Check apigee dir files
+        run: |
+          cd apigee-tests
+          ls -la
