@@ -28,7 +28,7 @@ jobs:
         with:
           sparse-checkout: |
             apigee-tests
-          #sparse-checkout-cone-mode: false
+          sparse-checkout-cone-mode: false
       - name: Check cloned files
         run: ls -la
       - name: Check apigee dir files
